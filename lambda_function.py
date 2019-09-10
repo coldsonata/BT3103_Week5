@@ -70,7 +70,7 @@ def lambda_handler(event, context):
             "headers": {
             'Content-Type': 'text/html',
             },
-            "body": open('/var/task/index.html','r').read()
+            "body": open('index.html','r').read()
         }
         
     if method == 'POST':
